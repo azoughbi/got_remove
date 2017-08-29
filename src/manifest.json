@@ -1,0 +1,19 @@
+{
+    "name": "GOT remover",
+    "description": "Remove GOT from Facebook pages",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+    "icons": {  "48": "icon48.png",
+               "128": "icon128.png" },
+    "content_scripts": [
+        {
+	    "matches":["*://*.facebook.com/*"],
+            "run_at": "document_start",
+            "js":["filter.js"]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icon48.png"
+    }
+}
