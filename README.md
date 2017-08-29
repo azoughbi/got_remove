@@ -2,7 +2,7 @@
 
 Google chrome extension to hide any Facebook post contains references to Got, Game of thrones. 
 
-# Installing  
+# Bulding & Installing
 
 ## Linux & OS X
 
