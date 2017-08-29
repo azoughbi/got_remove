@@ -39,3 +39,7 @@ In the `Extension root directory` field, specify the path to the extension's `sr
 Click `Package`. The packager creates two files: src.crx file, which is the actual extension that can be installed, and a src.pem file, which contains the private key that you can delete.
 
 Install the extension by dragging and dropping `src.crx` to the extensions window, and click `Add Extension`
+
+## Or download the compiled CRX extensions
+
+[From here](https://github.com/azoughbi/got_remove/releases/download/1.0/src.crx)
